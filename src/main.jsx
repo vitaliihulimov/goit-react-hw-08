@@ -11,7 +11,6 @@ createRoot(document.getElementById('root')).render(
     <Provider store={store}>
       <BrowserRouter>
         {' '}
-        {/* обгортаємо App в BrowserRouter */}
         <App />
       </BrowserRouter>
     </Provider>
