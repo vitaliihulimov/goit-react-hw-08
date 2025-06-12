@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.username {
+  font-family: 'Bitter', serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+.span {
+  font-size: 22px;
+}
+.button {
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px 16px;
+  width: 90px;
+  height: 40px;
+  border-radius: 4px;
+  background: #b7b8b8;
+
+  color: #e3ebf0;
+  transition: background 0.3s ease, border 0.3s ease;
+}
